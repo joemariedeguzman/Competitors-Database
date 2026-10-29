@@ -563,7 +563,7 @@ function go(name){
 document.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>go(b.dataset.go)));
 
 /* ---------- Settings: paste your Google Apps Script web app URL ---------- */
-const SCRIPT_URL="https://script.google.com/macros/library/d/1x5T4DMcdnEB82GsM7HrroyoHDooZCoFxxDIaIf_vKLX0pEnQ9QySZQ28/2";
+const SCRIPT_URL="https://script.google.com/macros/library/d/1x5T4DMcdnEB82GsM7HrroyoHDooZCoFxxDIaIf_vKLX0pEnQ9QySZQ28/3";
 const configured=/^https:\/\/script\.google\.com\//.test(SCRIPT_URL);
 const CODE_KEY="cdb-access-code";
 const getCode=()=>{ try{ return localStorage.getItem(CODE_KEY)||""; }catch(e){ return ""; } };
